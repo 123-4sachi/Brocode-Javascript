@@ -1,4 +1,4 @@
-//studying while loops
+//studying while loops   run some code while some given condition is true or false! 
 
 let username = "";
 while(username ==="" || username === null){

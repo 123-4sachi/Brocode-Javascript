@@ -28,9 +28,9 @@
 
 // not = !
 
-const name = ("sachi");
+let name = ("saachi");
 
-if(!name){
+if("sachi" !== name){
     console.log("it is not the correct name");
 }
 
