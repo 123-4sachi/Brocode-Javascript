@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Meeting Summarizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>AI Meeting Summarizer</h1>
+    <p>Paste your meeting transcript or notes below and get a smart summary with action items!</p>
+    <form id="transcriptForm">
+      <textarea id="transcriptInput" placeholder="Paste meeting transcript here..." required></textarea>
+      <button type="submit">Summarize</button>
+    </form>
+    <div id="summarySection" class="hidden">
+      <h2>Summary</h2>
+      <p id="summaryText"></p>
+      <h3>Action Items</h3>
+      <ul id="actionItems"></ul>
+      <button id="newSummary">Summarize Another</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
